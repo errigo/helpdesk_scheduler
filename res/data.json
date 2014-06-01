@@ -1,0 +1,60 @@
+{
+	"lang": [
+		{"id": "DE", "descr": "Tedesco"},
+		{"id": "EN", "descr": "Inglese"},
+		{"id": "ES", "descr": "Spagnolo/Portoghese"},
+		{"id": "FR", "descr": "Francese"},
+		{"id": "IT", "descr": "Italiano"},
+		{"id": "JA", "descr": "Giapponese"}
+	],
+	"level1": [
+		{"id":  0, "name": "AnnaC",			"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["EN", "ES", "IT"]},
+		{"id":  1, "name": "BarbaraB",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["EN", "FR", "IT"]},
+		{"id":  2, "name": "ChiaraB",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["EN", "FR", "IT"]},
+		{"id":  3, "name": "GiuliaX",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["EN", "FR", "IT"]},
+		{"id":  4, "name": "GraziaP",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["DE", "EN", "ES", "IT", "JA"]},
+		{"id":  5, "name": "LorellaX",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["EN", "FR", "IT"]},
+		{"id":  6, "name": "LuisaP",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["DE", "EN", "ES", "IT"]},
+		{"id":  7, "name": "MariaD",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["EN", "ES", "IT"]},
+		{"id":  8, "name": "MartinaS",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["EN", "FR", "IT"]},
+		{"id":  9, "name": "NadiaL",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["DE", "EN", "FR", "IT"]},
+		{"id": 10, "name": "NataliaM",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["EN", "IT"]},
+		{"id": 11, "name": "ValentinaO",	"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["DE", "EN", "FR", "IT"]},
+		{"id": 12, "name": "VeronicaF",		"daysPerWeek": 5, "hoursPerDay": 8, "lang": ["DE", "EN", "FR", "IT"]}
+	],
+	"shift": [
+		{"begin": "08:00", "end": "08:30"},
+		{"begin": "08:30", "end": "09:00"},
+		{"begin": "09:00", "end": "11:45"},
+		{"begin": "11:45", "end": "12:30"},
+		{"begin": "12:30", "end": "13:00"},
+		{"begin": "13:00", "end": "13:30"},
+		{"begin": "13:30", "end": "14:00"},
+		{"begin": "14:00", "end": "15:00"},
+		{"begin": "15:00", "end": "16:30"},
+		{"begin": "16:30", "end": "18:00"},
+		{"begin": "18:00", "end": "19:00"},
+		{"begin": "19:00", "end": "20:00"},
+		{"begin": "20:00", "end": "22:00"}
+	],
+	"cover": [
+		{"peopleNr": -1,
+		 "day": ["lun", "mar", "mer", "gio", "ven"],
+		 "scope": [
+			{"begin": "08:00", "end": "08:30", "lang": ["IT"]},
+			{"begin": "08:30", "end": "20:00", "lang": ["DE", "EN", "ES", "FR", "IT"]},
+			{"begin": "20:00", "end": "22:00", "lang": ["EN", "IT"]},
+		]},
+		{"peopleNr": 3,
+		"day": ["sab"],
+		"scope": [			
+			{"begin": "09:00", "end": "16:30", "lang": ["DE", "EN", "ES", "FR", "IT"]},
+			{"begin": "19:00", "end": "22:00", "lang": ["EN", "IT"], "note": "casa"}
+		]}
+		{"peopleNr": 1,
+		"day": ["dom"],
+		"scope": [
+			{"begin": "08:00", "end": "22:00", "lang": ["EN", "IT"], "note": "casa"}
+		]}		
+	]
+}
